@@ -79,11 +79,11 @@ while($row = $result->fetch_assoc()) {
                         <div class="col-md-6 mb-3">
                             <div class="form-label">Customer Name <span class="ms-2 check"></span></div>
                             <div class="input-group">
-                                <input type="text" value="Dingaan" name="cname" id="cname" class="form-control shadow-none" required>
+                                <input type="text" value="Enter your Name" name="cname" id="cname" class="form-control shadow-none" required>
                             </div><br>
-                            <div class="form-label">Referrence <span class="ms-2 check"></span></div>
+                            <div class="form-label">Reference <span class="ms-2 check"></span></div>
                             <div class="input-group">
-                                <input type="text" value="Savings" name="ref" id="ref" class="form-control shadow-none" required>
+                                <input type="text" value="Enter Reference" name="ref" id="ref" class="form-control shadow-none" required>
                             </div><br>
                             <div class="form-label">Enter Amount <span class="ms-2 check"></span></div>
                             <div class="input-group">
@@ -107,11 +107,10 @@ while($row = $result->fetch_assoc()) {
             <div class="card">
             <div class="card-body">
 
-            <h1> Where to use this Script </h1>
-            <p> All developers looking to implement Ozow.com Payment gateway in their Project to accept payment online with
-              ozow are welcome to re-use this script/source code.
+            <h1> Netbones is Developing this Gateway </h1>
+            <p> We need developers who are looking to implement a third party Ozow.com Payment gateway in their projects. Accept payment online, take a look at the source code.
             </p>
-            <p> This is a checkout page, you can direct re-use this in your project or study the codes and implement  it in your project</p>
+            <p> This is a just a sample checkout page, you may re-use this in your project or study the codes and develop it further.</p>
             <h3> Popular Website using Ozow </h3>
             <ul>
               <li>Takealot</li>

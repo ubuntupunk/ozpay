@@ -158,7 +158,7 @@ $data = json_decode($response,true);
                         <th>Bank From</th>
                         <th>Bank To</th>
                         <th>Amount</th>
-                        <th>Referrence</th>
+                        <th>Reference</th>
                         <th>Status</th>
                         <th>Action</th>
                       </tr>

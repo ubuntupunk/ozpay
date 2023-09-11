@@ -95,7 +95,7 @@ $currency = "R";
               <li class="text-muted mt-1"><span class="text-black">Bank To: </span><?php echo $jsonData['toBankName'];?></li>
               <li class="text-muted mt-1"><span class="text-black">To Paid Account: </span><?php echo $jsonData['toAccountNumber'];?></li>
               <li class="text-muted mt-1"><span class="text-black">Amount: </span><?php echo $currency.$jsonData['amount'];?></li>
-              <li class="text-muted mt-1"><span class="text-black">Referrence: </span><?php echo $jsonData['transactionReference'];?></li>
+              <li class="text-muted mt-1"><span class="text-black">Reference: </span><?php echo $jsonData['transactionReference'];?></li>
               <li class="text-muted mt-1"><span class="text-black">Payment Date: </span>  <?php echo $jsonData['paymentDate'];?></li>
               <li class="text-muted mt-1"><span class="text-black">Payment Status: </span>  <?php echo $jsonData['status'];?></li>
               </ul>  
